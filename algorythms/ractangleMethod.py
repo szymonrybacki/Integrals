@@ -10,6 +10,6 @@ class RactangleMethod:
         
         for i in range (0, self.n):
             x = self.a + i * dx
-            sum += func(x) * dx
-        
+            sum += func(x)
+        sum *= dx
         return sum
