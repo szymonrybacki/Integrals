@@ -8,7 +8,7 @@ class TrapezeMethod:
         sum = 0.0
         dx = (self.b - self.a) / self.n
         
-        for i in range (0, self.n):
+        for i in range (1, self.n):
             x = self.a + i * dx
             sum += func(x)
 
